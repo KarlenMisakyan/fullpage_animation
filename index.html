@@ -5,9 +5,90 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link
+      href="https://fonts.googleapis.com/css?family=Poppins&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./fullpage.min.css">
+    <script defer src="./fullpage.min.js"></script>
+    <script defer src="./app.js"></script>
+    <script defer src="./card.js"></script>
+    <script defer src="./card_2.js"></script>
 </head>
 <body>
     
+    <div id="fullpage">
+        <section class="section s1">
+            <h1>First Section</h1>
+        </section>
+        <section class="section s2">
+            <h1>Second Section</h1>
+            <div class="description">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt laboriosam harum et ea, soluta reprehenderit quos iste quaerat minus est!</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Est, itaque.</p>
+            </div>
+            <img src="./img/chair2.png" alt="chair" class="chair" />
+            <img src="./img/chair3.png" alt="chair" class="chair" />
+            <img src="./img/chair1.png" alt="chair" class="chair" />
+        </section>
+        <section class="section s3">
+            <h1>Third Section</h1>
+            <div class="wrapper">
+                <div class="container">
+                    <div class="card">
+                        <div class="sneaker">
+                            <div class="circle"></div>
+                            <img src="./img/adidas.png" alt="adidas">
+                        </div>
+                        <div class="info">
+                            <h2 class="title">Adidas ZX</h2>
+                            <h3>FUTURE-READY TRAINRES WITH WRAPPED BOOST FOR EXCEPTION COMFORT.</h3>
+                            <div class="sizes">
+                                <button>39</button>
+                                <button>40</button>
+                                <button class="active">42</button>
+                                <button>44</button>
+                            </div>
+                            <div class="purchase">
+                                <button>Purchase</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="con1-wrapper">
+                <div class="container con1">
+                    <div class="card1">
+                        <div class="player1">
+                            <div class="circle1"></div>
+                            <img src="./img/pngegg.png" alt="">
+                        </div>
+                        <div class="info1">
+                            <h2 class="name1">LeBron James</h2>
+                            <h2 class="club1">Los Angeles Lakers</h2>
+                        </div>
+                        <div class="bio">
+            
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="section s4">
+            <h1>Footer</h1>
+        </section>
+    </div>
+
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/TimelineMax.min.js"
+      integrity="sha256-fIkQKQryItPqpaWZbtwG25Jp2p5ujqo/NwJrfqAB+Qk="
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/TweenMax.min.js"
+      integrity="sha256-lPE3wjN2a7ABWHbGz7+MKBJaykyzqCbU96BJWjio86U="
+      crossorigin="anonymous"
+    ></script>
 </body>
 </html>
